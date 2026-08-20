@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Yuvraj Enterprise - Landscape Nursery & Garden Solutions">
+<title>Yuvraj Enterprise | Landscape Nursery</title>
+<style>
+:root{--g:#075b32;--g2:#18854b;--lime:#8fbd4c;--cream:#f8f5df;--bg:#f4f8f2;--dark:#123226}
+*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
+body{font-family:Arial,Helvetica,sans-serif;background:var(--bg);color:var(--dark);line-height:1.6}
+.container{width:min(1120px,92%);margin:auto}
+header{position:sticky;top:0;z-index:99;background:#fff;box-shadow:0 3px 18px #00000012}
+nav{min-height:72px;display:flex;align-items:center;justify-content:space-between}
+.brand{display:flex;align-items:center;gap:10px;font-weight:800;color:var(--g)}
+.brand img{width:50px;height:50px;border-radius:50%;object-fit:cover}
+.navlinks{display:flex;gap:22px;font-weight:700}.navlinks a:hover{color:var(--g2)}
+.call{background:var(--g);color:#fff;padding:10px 17px;border-radius:24px;font-weight:700}
+.hero{background:linear-gradient(135deg,var(--cream),#e2f2df);padding:65px 0}
+.grid{display:grid;grid-template-columns:1.05fr .95fr;gap:45px;align-items:center}
+.hero h1{font-size:clamp(2.4rem,5vw,4.4rem);line-height:1.04;color:var(--g)}
+.hero h1 span{color:var(--lime)}.hero p{font-size:1.1rem;margin:18px 0 25px;max-width:650px}
+.btns{display:flex;gap:12px;flex-wrap:wrap}.btn{padding:13px 21px;border-radius:28px;font-weight:800;display:inline-block}
+.primary{background:var(--g);color:#fff}.secondary{border:2px solid var(--g);color:var(--g)}
+.visual{min-height:430px;border-radius:30px;position:relative;overflow:hidden;background:linear-gradient(145deg,#0b6739,#7fb84d);box-shadow:0 18px 45px #075b3225}
+.visual:before{content:"";position:absolute;width:300px;height:300px;border-radius:50%;background:#ffffff20;top:-100px;right:-80px}
+.visual:after{content:"🌿";position:absolute;font-size:210px;right:18px;bottom:-25px;transform:rotate(-12deg)}
+.visual-content{position:absolute;left:30px;bottom:30px;color:#fff;z-index:2;max-width:330px}
+.visual-content h2{font-size:2rem}.visual-content p{margin-top:8px}
+section{padding:72px 0}.title{text-align:center;margin-bottom:38px}.title h2{font-size:2.35rem;color:var(--g)}.title p{max-width:700px;margin:7px auto;color:#61776c}
+.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.card{background:#fff;border-radius:18px;padding:25px;text-align:center;box-shadow:0 8px 25px #00000009}.icon{font-size:2.3rem}.card h3{color:var(--g);margin:10px 0 6px}
+.about{background:#fff}.aboutbox{background:var(--cream);border-radius:25px;padding:35px}.ticks{display:grid;gap:9px;margin-top:17px}.ticks div:before{content:"✓";color:var(--g2);font-weight:900;margin-right:9px}
+.contact{background:linear-gradient(135deg,#075b32,#18854b);color:#fff}.contact .title h2,.contact .title p{color:#fff}
+.formwrap{display:grid;grid-template-columns:1fr 1fr;gap:28px}.info,.form{background:#ffffff16;border:1px solid #ffffff24;border-radius:20px;padding:28px}.info h3{margin-bottom:10px}.info p{margin:9px 0}.info a{color:#fff;font-weight:800}
+input,textarea{width:100%;padding:13px 14px;margin-bottom:12px;border:0;border-radius:10px;font:inherit}textarea{min-height:120px;resize:vertical}.send{border:0;cursor:pointer;width:100%;background:#fff;color:var(--g);padding:13px;border-radius:25px;font-weight:800}
+footer{background:#063b22;color:#dcecdf;text-align:center;padding:24px}
+.whatsapp{position:fixed;right:18px;bottom:18px;z-index:100;background:#25d366;color:#fff;width:58px;height:58px;border-radius:50%;display:grid;place-items:center;font-size:28px;box-shadow:0 8px 25px #0004}
+@media(max-width:850px){.navlinks{display:none}.grid,.formwrap{grid-template-columns:1fr}.cards{grid-template-columns:repeat(2,1fr)}.hero{padding:45px 0}.visual{min-height:330px}}
+@media(max-width:520px){.cards{grid-template-columns:1fr}.brand img{width:44px;height:44px}.brand{font-size:.95rem}}
+</style>
+</head>
+<body>
+<header><nav class="container">
+<a class="brand" href="#home"><img src="logo.jpg" alt="Yuvraj Enterprise logo"><span>YUVRAJ ENTERPRISE</span></a>
+<div class="navlinks"><a href="#home">Home</a><a href="#services">Services</a><a href="#about">About</a><a href="#contact">Contact</a></div>
+<a class="call" href="tel:+918485905555">Call Now</a>
+</nav></header>
+
+<section class="hero" id="home"><div class="container grid">
+<div><h1>Bring <span>Nature</span><br>Closer to You.</h1>
+<p><strong>Yuvraj Enterprise</strong> — Landscape Nursery & Garden Solutions for beautiful, healthy and refreshing green spaces.</p>
+<div class="btns"><a class="btn primary" href="https://wa.me/918485905555?text=Hello%20Yuvraj%20Enterprise%2C%20I%20am%20interested%20in%20your%20landscape%20nursery%20services.">💬 WhatsApp Us</a><a class="btn secondary" href="#contact">Get Enquiry</a></div></div>
+<div class="visual"><div class="visual-content"><h2>Green Spaces. Better Living.</h2><p>Quality plants • Garden development • Landscape solutions</p></div></div>
+</div></section>
+
+<section id="services"><div class="container"><div class="title"><h2>Our Services</h2><p>Complete nursery, landscaping, garden maintenance and gardening supplies for homes, offices, resorts and commercial projects.</p></div>
+<div class="cards">
+<div class="card"><div class="icon">🌱</div><h3>Landscape Plants</h3><p>Quality plants for attractive and healthy landscapes.</p></div>
+<div class="card"><div class="icon">🪴</div><h3>Decorative Plants</h3><p>Outdoor and decorative plants for every space.</p></div>
+<div class="card"><div class="icon">🌳</div><h3>Garden Development</h3><p>Garden and landscape development for your space.</p></div>
+<div class="card"><div class="icon">🏡</div><h3>Green Space Solutions</h3><p>Professional solutions for residential and commercial projects.</p></div>
+<div class="card"><div class="icon">✂️</div><h3>Garden Maintenance</h3><p>Regular garden maintenance and care services.</p></div>
+<div class="card"><div class="icon">🌾</div><h3>Fertilizer Supply</h3><p>Fertilizers for healthy plant and garden growth.</p></div>
+<div class="card"><div class="icon">🪴</div><h3>Pots Supply</h3><p>Garden and plant pots for homes and projects.</p></div>
+<div class="card"><div class="icon">🥥</div><h3>Cocopeat</h3><p>Quality cocopeat for potting and plant growing.</p></div>
+<div class="card"><div class="icon">♻️</div><h3>Vermicompost</h3><p>Organic vermicompost for healthy soil and plants.</p></div>
+<div class="card"><div class="icon">🛠️</div><h3>Garden Tools</h3><p>Useful tools and equipment for gardening work.</p></div>
+</div></div></section>
+
+<section class="about" id="about"><div class="container grid">
+<div><div class="title" style="text-align:left;margin-bottom:14px"><h2>About Us</h2></div>
+<p>Yuvraj Enterprise helps turn ordinary spaces into beautiful green environments with quality nursery plants and landscape services.</p>
+<div class="ticks"><div>Quality plants</div><div>Professional service</div><div>Customized solutions</div><div>Customer-focused approach</div></div></div>
+<div class="aboutbox"><h2>Har Green Space, Ek Behtar Kal Ki Ore.</h2><p>Let’s build a greener, healthier and more beautiful tomorrow together.</p></div>
+</div></section>
+
+<section class="contact" id="contact"><div class="container"><div class="title"><h2>Contact & Enquiry</h2><p>Tell us what you need and we’ll connect with you on WhatsApp.</p></div>
+<div class="formwrap">
+<div class="info"><h3>Yuvraj Enterprise</h3><p>🌿 Landscape Nursery & Garden Solutions</p><p>📞 <a href="tel:+918485905555">8485905555</a></p><p>💬 <a href="https://wa.me/918485905555">Chat on WhatsApp</a></p><p>📍 <strong>Address:</strong> Plot No. 102, Shree Maruti Farm, Khoraj, Gandhinagar - 382421</p><p>🗺️ <a href="https://www.google.com/maps/search/?api=1&query=Plot+No.102+Shree+Maruti+Farm+Khoraj+Gandhinagar+382421" target="_blank" rel="noopener">Open Location in Google Maps</a></p><p>📱 Social links: Add Instagram/Facebook links here</p></div>
+<form class="form" onsubmit="sendWhatsApp(event)"><input id="name" placeholder="Your Name" required><input id="phone" placeholder="Your Phone Number" required><textarea id="message" placeholder="What plants or landscaping service do you need?" required></textarea><button class="send" type="submit">Send Enquiry on WhatsApp</button></form>
+</div></div></section>
+
+<a class="whatsapp" href="https://wa.me/918485905555" aria-label="WhatsApp">💬</a>
+<footer>© 2026 Yuvraj Enterprise • Landscape Nursery & Garden Solutions</footer>
+<script>
+function sendWhatsApp(e){
+ e.preventDefault();
+ const n=document.getElementById('name').value, p=document.getElementById('phone').value, m=document.getElementById('message').value;
+ const text=`Hello Yuvraj Enterprise,%0A%0AName: ${encodeURIComponent(n)}%0APhone: ${encodeURIComponent(p)}%0ARequirement: ${encodeURIComponent(m)}`;
+ window.open(`https://wa.me/918485905555?text=${text}`,'_blank');
+}
+</script>
+</body>
+</html>
