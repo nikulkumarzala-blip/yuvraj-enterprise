@@ -37,13 +37,16 @@ input,textarea{width:100%;padding:13px 14px;margin-bottom:12px;border:0;border-r
 footer{background:#063b22;color:#dcecdf;text-align:center;padding:24px}
 .whatsapp{position:fixed;right:18px;bottom:18px;z-index:100;background:#25d366;color:#fff;width:58px;height:58px;border-radius:50%;display:grid;place-items:center;font-size:28px;box-shadow:0 8px 25px #0004}
 @media(max-width:850px){.navlinks{display:none}.grid,.formwrap{grid-template-columns:1fr}.cards,.client-grid{grid-template-columns:repeat(2,1fr)}.hero{padding:45px 0}.visual{min-height:330px}}
-@media(max-width:520px){.cards,.client-grid{grid-template-columns:1fr}.brand img{width:44px;height:44px}.brand{font-size:.95rem}}
 client-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-  align-items: center;
-  justify-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    align-items: center;
+   justify-items: center;
+}.client-grid img {
+    width: 70px;
+    height: 45px;
+    object-fit: contain;
 }
 
 .client-grid img {
